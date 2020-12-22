@@ -6,7 +6,7 @@ export default function Selection(props) {
   return (
     <>
       <div
-        style={{ backgroundColor: background }}
+        style={{ background: background }}
         className="fix-box"
         onClick={props.applyColor}
       >
