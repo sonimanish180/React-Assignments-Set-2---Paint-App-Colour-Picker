@@ -50,7 +50,7 @@ const App = () => {
         {["selection1", "selection2", "selection3"].map((key) => (
           <Selection
             key={key}
-            nextBackground={nextBackground}
+            // nextBackground={nextBackground}
             applyColor={applyColor}
           />
         ))}
